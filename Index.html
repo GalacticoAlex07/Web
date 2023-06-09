@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contratación de Programadores</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a la web de contratación de programadores</h1>
+  </header>
+
+  <nav>
+    <a href="#contrataciones">Contrataciones</a>
+  </nav>
+
+  <section id="contrataciones">
+    <h2>Contrataciones</h2>
+    <ul>
+      <li>
+        <form action="https://formspree.io/f/mnqykynw" method="POST">
+          <input type="hidden" name="_subject" value="Contratación">
+          <input type="hidden" name="_next" value="nombre_del_archivo.html">
+
+          <label for="contratista">Contratista:</label>
+          <input type="text" id="contratista" name="contratista" required>
+
+          <label for="correo">Correo Electrónico:</label>
+          <input type="email" id="correo" name="_replyto" required>
+
+          <input type="hidden" name="_format" value="plain">
+          <input type="hidden" name="_language" value="es">
+          <input type="hidden" name="_gotcha" style="display:none">
+
+          <input type="submit" value="Contratar">
+        </form>
+      </li>
+      <!-- Agrega más opciones de contratación aquí -->
+    </ul>
+  </section>
+
+  <footer>
+    <p>Derechos reservados &copy; 2023</p>
+  </footer>
+</body>
+</html>
